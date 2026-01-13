@@ -5,7 +5,7 @@ TMDB_API_KEY = ""
 def get_movie(title):
     url = (
         "https://api.themoviedb.org/3/search/movie"
-        f"?query={title}&api_key={TMDB_API_KEY}"
+        f"?query={title}&api_key={"a6c21dffd467996827f899e526099520"}"
     )
     response = requests.get(url)
     data = response.json()
